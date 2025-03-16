@@ -1,0 +1,23 @@
+{
+  "name": "pedro/notification",
+  "description": "This is a library that uses composer as the basis for generating email notifications",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Pedro\\Notification\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Pedro Silva",
+      "email": "pedruuu291@gmail.com",
+      "homepage": "https://www.pedro-dev.me",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "phpmailer/phpmailer": "6.9.3"
+  }
+}
